@@ -1,0 +1,345 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: Arial, sans-serif;
+}
+
+/*creating navbar*/
+.navbar{
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar__logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #002B11;
+}
+.navbar__logo img{
+    height: 20px;
+    width: 20px;
+}
+.navbar__navigation{
+    display: flex;
+    gap: 40px;
+}
+.navbar__navigation button{
+    background-color: transparent;
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+}
+.one{
+    font-size: 15px;
+    font-weight: bold;
+    color: #002B11;
+}
+.two{
+    font-size: 15px;
+    font-weight: bold;
+    color: #002B11;
+}
+.three{
+    font-size: 15px;
+    font-weight: bold;
+    color: #002B11;
+}
+.four{
+    font-size: 15px;
+    font-weight: bold;
+    color: #002B11;
+}
+.navbar__navigation button:hover{
+    background-color: #002B11;
+    color: white;
+}
+.navbar__signin button{
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+}
+.navbar__signin-1{
+    background-color: transparent;
+    color: #002B11;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar__signin-1:hover{
+    background-color: rgb(209, 209, 209);
+}
+.navbar__signin-2{
+    background-color:#002B11;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar__signin-2:hover{
+    background-color: #005c25;
+}
+
+/*where to?*/
+.title{
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#002B11;
+}
+
+/*search bar*/
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.search-container {
+    align-items: center;
+    justify-content: center;
+      display: flex;
+      width: 700px;               
+      border: 1px solid #ddd;
+      border-radius: 30px;     
+      padding: 9px 12px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.11);
+      margin-top: 30px;
+      position:sticky;
+      top: 10px;
+      z-index: 1;
+    }
+    .search-container i {
+      color: #666;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    .search-container input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      color: #333;
+    }
+    .search-container button {
+      background: #00e257;        
+      color: #000;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .search-container button:hover {
+      background: #02a741;
+    }
+
+    /*content of the page*/
+    .content{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+    .content button{
+        background-color: transparent;
+        font-size: 18px;
+        color: #005c25;
+    }
+    .content-1{
+        border-bottom: solid #005c25 2px;
+    }
+    .content-2:hover{
+        border-bottom: solid #005c25 2px;
+    }
+    .content-3:hover{
+        border-bottom: solid #005c25 2px;
+    }
+    .content-4:hover{
+        border-bottom: solid #005c25 2px;
+    }
+    .content-5:hover{
+        border-bottom: solid #005c25 2px;
+    }
+    .content-6:hover{
+        border-bottom: solid #005c25 2px;
+    }
+
+    /*first image content*/
+    
+    .winner{
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+    }
+    .winner-1 img{
+        height: 500px;
+        width: 1136;
+        border-radius: 20px;
+    }
+    .winner-1{
+        position: relative;
+    }
+    .winner-2{
+        color: white;
+        font-size: 20px;
+        top: 700px;
+        position: absolute;
+    }
+    .winner-3{
+        background-color: white;
+        color: #005c25;
+        border-radius: 20px;
+        width: 180px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .winner-3:hover{
+        background-color: #d4d4d4;
+    }
+
+    /*winner-box*/
+    .winner-box{
+        margin-left: 340px;
+        margin-right: 340px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .text-title{
+        border: 10px;
+        padding: 10px;
+        
+    }
+    .text-title-1{
+        
+        color: #005c25;
+        font-weight: bold;
+    }
+
+    /*image*/
+    .container{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .restaurant__1 p{
+        font-size: 20px;
+        color: #005c25;
+        font-weight: bold;
+    }
+    .restaurant__1 img{
+        border-radius: 20px;
+        width: 272px;
+        height: 272px;
+    }
+    .restaurant__2 img{
+        border-radius: 20px;
+        width: 272px;
+        height: 272px;
+    }
+    .restaurant__2 p{
+        font-size: 20px;
+        color: #005c25;
+        font-weight: bold;
+    }
+    .restaurant__3 img{
+        border-radius: 20px;
+        width: 272px;
+        height: 272px;
+    }
+    .restaurant__3 p{
+        font-size: 20px;
+        color: #005c25;
+        font-weight: bold;
+    }
+    .restaurant__4 img{
+        border-radius: 20px;
+        width: 272px;
+        height: 272px;
+    }
+    .restaurant__4 p{
+        font-size: 20px;
+        color: #005c25;
+        font-weight: bold;
+    }
+
+    /*jaipur*/
+    .place{
+        margin-left: 340px;
+        margin-right: 340px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .place-1{
+        border: 10px;
+        padding: 10px;
+        
+    }
+    .place-1__1{
+        
+        color: #005c25;
+        font-weight: bold;
+    }
+    .destinations-container{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .course-card-1 img{
+        height: 272px;
+        width: 272px;
+        border-radius: 20px;
+    }
+    .course-card-2 img{
+        height: 272px;
+        width: 272px;
+        border-radius: 20px;
+    }
+    .course-card-3 img{
+        height: 272px;
+        width: 272px;
+        border-radius: 20px;
+    }
+    .course-card-4 img{
+        height: 272px;
+        width: 272px;
+        border-radius: 20px;
+    }
+
+    /*footer*/
+    .footer{
+        padding: 40px;
+        background-color: #dadada;
+        color: #005c25;
+    }
+    .footer__1{
+        display: flex;
+        gap: 40px;
+    }
+    .footer__1 p{
+        margin: 20px;
+    }
+    .footer__2{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*mdia queries*/
+
+    @media screen and (max-width:800px){
+        body{
+            font-size: 5px;
+        }
+    }
